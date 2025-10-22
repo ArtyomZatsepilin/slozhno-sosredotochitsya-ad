@@ -13,3 +13,21 @@
   --background-header: url(../images/cover-image-dark.png);
   --padding-end: 10px;
 }
+
+:root.theme-auto {
+  --back-fon: #000028;
+  --main-text: #db00ff;
+  --accent: #ff0070;
+  --REC: #ff0070;
+  --accent-color: #ff0070;
+  --accent-color-buttons: #ff0070;
+  --text: #f1b2ce;
+}
+
+.theme-auto .main__section-title {
+  color: var(--accent);
+}
+
+.theme-auto .title-accent {
+  color: var(--back-fon);
+}

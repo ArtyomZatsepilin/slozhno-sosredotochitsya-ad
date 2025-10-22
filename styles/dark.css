@@ -11,6 +11,25 @@
   */
 }
 
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+
+:root.theme-dark {
+  --back-fon: #000028;
+  --main-text: #db00ff;
+  --accent: #ff0070;
+  --accent-color: #ff0070;
+  --text: #f1b2ce;
+  --REC: #ff0070; --accent-color: #ff0070;
+  --accent-color-buttons: #ff0070;
+  --hover-day: #660045;
+  --black-text: #000028;
+  --text: #f1b2ce;
+  --REC: #ff0070;
+}
+
+.theme-dark .main__section-title {
+  color: var(--accent);
+}
+
+.theme-dark .title-accent {
+  color: var(--back-fon);
 }
