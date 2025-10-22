@@ -29,8 +29,8 @@
   left: 10px;
   width: 25px;
   height: 25px;
-  border-bottom: 1px solid var(--accent);
-  border-left: 1px solid var(--accent);
+  border-bottom: 1px solid var(--accent-ba);
+  border-left: 1px solid var(--accent-ba);
 }
 
 .header::after,
@@ -41,8 +41,8 @@
   right: 10px;
   width: 25px;
   height: 25px;
-  border-top: 1px solid var(--accent);
-  border-right: 1px solid var(--accent);
+  border-top: 1px solid var(--accent-ba);
+  border-right: 1px solid var(--accent-ba);
 }
 
 .header__record-decoration {
@@ -80,7 +80,7 @@
   padding: 3px 13px 5px;
   border: none;
   background-color: transparent;
-  color: var(--accent);
+  color: var(--accent-ba);
   line-height: 18px;
 }
 
@@ -105,7 +105,7 @@
 
 .header__theme-menu-button:hover::after,
 .header__theme-menu-button_active::after {
-  border: 1px solid var(--accent);
+  border: 1px solid var(--accent-ba);
 }
 
 .header__theme-menu-button:not(.header__theme-menu-button_active):hover::after {
@@ -122,6 +122,10 @@
   font-size: clamp(7.25rem, 7.0714rem + 0.8929vw, 7.5rem);
   line-height: 83%;
   text-shadow: 4px 4px 0 var(--accent);
+}
+
+.footer__title {
+  text-shadow: 2px 2px 0 var(--accent);
 }
 
 .header__title-accent {

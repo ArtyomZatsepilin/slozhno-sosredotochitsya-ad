@@ -27,17 +27,18 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
+  :root.theme-auto {
     --background: #fff1f7;
     --header: #ffc2e6;
     --accent: #ff8dcb;
     --text: #353430;
+    --accent-ba: #353430;
   }
 
   .header__record-decoration {
     display: none;
   }
-
+/* 
   .header::before,
   .footer::before,
   .header::after,
@@ -49,5 +50,5 @@
   .main__section-title,
   .title-accent {
     color: var(--text);
-  }
+  } */
 }
