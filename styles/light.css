@@ -1,9 +1,7 @@
-
 :root.theme-light {
   --background: #fff1f7;
   --header: #ffc2e6;
- 
-   --black-text: #353430;
+  --black-text: #353430;
   --accent-color: #ff8dcb;
   --accent-color-buttons: #353430;
   --main-text: #ffc2e6;
@@ -14,11 +12,6 @@
   --background-header: url(../images/cover-image-light.png);
 }
 
-.theme-light .footer-focus::before,
-.theme-light .footer-focus::after,
-.theme-light .header__theme-menu-button {
-  --accent: var(--text);
-}
 
 @media (prefers-color-scheme: light) {
   :root.theme-auto {
@@ -34,11 +27,5 @@
   --back-fon: #fff1f7;
   --hover-day: #ada4a6;
   --background-header: url(../images/cover-image-light.png);
-  }
-
-  .theme-auto .footer-focus::before,
-  .theme-auto .footer-focus::after,
-  .theme-auto .header__theme-menu-button {
-    --accent-color: var(--text);
   }
 }

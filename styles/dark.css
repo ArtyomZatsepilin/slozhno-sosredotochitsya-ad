@@ -1,4 +1,3 @@
-
 :root.theme-dark {
   --back-fon: #000028;
   --main-text: #db00ff;
@@ -14,10 +13,3 @@
   --REC: #ff0070;
 }
 
-/* .theme-dark .main__section-title {
-  color: var(--accent);
-}
-
-.theme-dark .title-accent {
-  color: var(--back-fon);
-} */
