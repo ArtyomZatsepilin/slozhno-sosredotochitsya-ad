@@ -1,14 +1,15 @@
 :root {
-  --background: #000028;
-  --header: #db00ff;
-  --accent: #ff0070;
+  --accent-color: #ff0070;
+  --accent-color-buttons: #ff0070;
+  --hover-day: #660045;
+  --black-text: #000028;
+  --back-fon: #000028;
+  --main-text: #db00ff;
   --text: #f1b2ce;
-}
-
-.main__section-title {
-  color: var(--accent);
-}
-
-.title-accent {
-  color: var(--background);
+  --REC: #ff0070;
+  --margin-contents-top: 40px;
+  --margin-imgs-top: 40px;
+  --margin-contents-bottom: 10px;
+  --background-header: url(../images/cover-image-dark.png);
+  --padding-end: 10px;
 }

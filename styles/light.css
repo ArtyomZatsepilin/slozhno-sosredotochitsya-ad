@@ -1,53 +1,24 @@
 :root.theme-light {
-  --background: #fff1f7;
-  --header: #ffc2e6;
-  --accent: #ff8dcb;
+  --main-text: #ffc2e6;
+  --black-text: #353430;
+  --accent-color: #ff8dcb;
+  --accent-color-buttons: #353430;
   --text: #353430;
+  --REC: #ffeef6;
+  --back-fon: #fff1f7;
+  --hover-day: #ada4a6;
+  --background-header: url(../images/cover-image-light.png);
 }
 
 .theme-light .page {
   background-image: url("../images/cover-image-light.png");
-}
-
-.theme-light .header__record-decoration {
-  display: none;
-}
-
-.theme-light .header::before,
-.theme-light .footer::before,
-.theme-light .header::after,
-.theme-light .footer::after,
-.theme-light .header__theme-menu-button {
-  --accent: var(--text);
-}
-
-.theme-light .main__section-title,
-.theme-light .title-accent {
-  color: var(--text);
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --background: #fff1f7;
-    --header: #ffc2e6;
-    --accent: #ff8dcb;
-    --text: #353430;
-  }
-
-  .header__record-decoration {
-    display: none;
-  }
-
-  .header::before,
-  .footer::before,
-  .header::after,
-  .footer::after,
-  .header__theme-menu-button {
-    --accent: var(--text);
-  }
-  
-  .main__section-title,
-  .title-accent {
-    color: var(--text);
-  }
+  --main-text: #ffc2e6;
+  --black-text: #353430;
+  --accent-color: #ff8dcb;
+  --accent-color-buttons: #353430;
+  --text: #353430;
+  --REC: #ffeef6;
+  --back-fon: #fff1f7;
+  --hover-day: #ada4a6;
+  --background-header: url(../images/cover-image-light.png);
 }
