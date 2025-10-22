@@ -1,17 +1,47 @@
+@media (prefers-color-scheme: light) {
+
+  :root {
+    --main-text: #ffc2e6;
+    --black-text: #353430;
+    --accent-color: #ff8dcb;
+    --accent-color-buttons: #353430 v;
+    --text: #353430;
+    --REC: #ffeef6;
+    --back-fon: #fff1f7;
+    --hover-day: #ada4a6;
+    --background-header: url(../images/cover-image-light.png);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+
+  :root {
+    --accent-color: #ff0070;
+    --accent-color-buttons: #ff0070;
+    --hover-day: #660045;
+    --black-text: #000028;
+    --back-fon: #000028;
+    --main-text: #db00ff;
+    --text: #f1b2ce;
+    --REC: #ff0070;
+    --margin-contents-top: 40px;
+    --margin-imgs-top: 40px;
+    --margin-contents-bottom: 10px;
+    --background-header: url(../images/cover-image-dark.png);
+    --padding-end: 10px;
+  }
+}
+
 :root {
-  --accent-color: #ff0070;
-  --accent-color-buttons: #ff0070;
-  --hover-day: #660045;
-  --black-text: #000028;
-  --back-fon: #000028;
-  --main-text: #db00ff;
-  --text: #f1b2ce;
-  --REC: #ff0070;
-  --margin-contents-top: 40px;
-  --margin-imgs-top: 40px;
-  --margin-contents-bottom: 10px;
-  --background-header: url(../images/cover-image-dark.png);
-  --padding-end: 10px;
+  --main-text: #ffc2e6;
+  --black-text: #353430;
+  --accent-color: #ff8dcb;
+  --accent-color-buttons: #353430 v;
+  --text: #353430;
+  --REC: #ffeef6;
+  --back-fon: #fff1f7;
+  --hover-day: #ada4a6;
+  --background-header: url(../images/cover-image-light.png);
 }
 
 :root.theme-auto {
@@ -28,6 +58,25 @@
       --back-fon: #fff1f7;
       --hover-day: #ada4a6;
       --background-header: url(../images/cover-image-light.png);
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+
+    :root {
+      --accent-color: #ff0070;
+      --accent-color-buttons: #ff0070;
+      --hover-day: #660045;
+      --black-text: #000028;
+      --back-fon: #000028;
+      --main-text: #db00ff;
+      --text: #f1b2ce;
+      --REC: #ff0070;
+      --margin-contents-top: 40px;
+      --margin-imgs-top: 40px;
+      --margin-contents-bottom: 10px;
+      --background-header: url(../images/cover-image-dark.png);
+      --padding-end: 10px;
     }
   }
 }
