@@ -206,7 +206,7 @@ a:focus {
 }
 
 .card2, .card3 {
-  margin: 32px 0 0 0;
+  margin: 37px 0 0 0;
 }
 
 .card__title {
@@ -310,6 +310,7 @@ a:focus {
   .images-container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: min-content repeat(2, 25%) 40%;
+    margin-top: 60px;
   }
 
   .img-title {
