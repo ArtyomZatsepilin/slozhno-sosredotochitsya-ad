@@ -1,12 +1,12 @@
-:root{
-  --accent-color: #FF0070;
-  --accent-color-buttons: #FF0070;
+:root {
+  --accent-color: #ff0070;
+  --accent-color-buttons: #ff0070;
   --hover-day: #660045;
   --black-text: #000028;
   --back-fon: #000028;
-  --main-text: #DB00FF;
-  --text: #F1B2CE;
-  --REC: #FF0070;
+  --main-text: #db00ff;
+  --text: #f1b2ce;
+  --REC: #ff0070;
   --margin-contents-top: 40px;
   --margin-imgs-top: 40px;
   --margin-contents-bottom: 10px;

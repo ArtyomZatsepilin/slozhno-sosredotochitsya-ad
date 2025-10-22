@@ -1,9 +1,11 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
-h2, .page {
-  font-family: 'IBM Plex mono';
+h2,
+.page {
+  font-family: "IBM Plex mono";
   font-size: 18px;
   background-color: var(--back-fon);
+  background-attachment: fixed;
 }
 
 a {
@@ -29,7 +31,7 @@ a:focus {
   background-size: cover;
   background-position: center;
   box-sizing: border-box;
-  display: grid;  
+  display: grid;
   grid-template-rows: 1fr min-content 1fr;
   grid-template-columns: 1fr;
 }
@@ -59,9 +61,8 @@ a:focus {
   border-right: 1px solid var(--REC);
 }
 
-
-.REC::after{
-  content: '';
+.REC::after {
+  content: "";
   position: absolute;
   display: inline-block;
   right: 10px;
@@ -74,7 +75,7 @@ a:focus {
 }
 
 .card__title-grid-header::before {
-  content: '';
+  content: "";
   position: absolute;
   display: inline-block;
   left: 0;
@@ -86,7 +87,7 @@ a:focus {
   margin-left: var(--padding-end);
 }
 
-.header__theme-menu-list{
+.header__theme-menu-list {
   grid-row: 2/3;
   grid-column: 2/3;
   align-self: center;
@@ -101,47 +102,40 @@ a:focus {
   block-size: 26px;
 }
 
-
 .focus-text-grid {
   grid-row: 2/3;
 }
 
-.focus-text-grid-header{
+.focus-text-grid-header {
   display: flex;
   flex-direction: column;
   line-height: 533%;
   position: relative;
 }
 
-.card__title-grid-header{
+.card__title-grid-header {
   align-self: center;
 }
 
-
-
-
-
-.header__theme-menu-button{
+.header__theme-menu-button {
   background-color: transparent;
   border: 0;
   color: var(--accent-color-buttons);
   width: 100%;
   font-weight: 400;
   line-height: 18px;
-  
 }
 
-.header__theme-menu-button:hover{
+.header__theme-menu-button:hover {
   outline: none;
   border: 1px solid var(--hover-day);
 }
 
-.header__theme-menu-button_active{
+.header__theme-menu-button_active {
   border: 1px solid var(--accent-color-buttons);
-
 }
 
-.padding010{
+.padding010 {
   padding: 0 var(--padding-end);
 }
 
@@ -166,7 +160,7 @@ a:focus {
   position: relative;
 }
 
-.footer-focus{
+.footer-focus {
   margin: auto;
   color: var(--main-text);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -174,7 +168,7 @@ a:focus {
 }
 
 .footer-focus::after {
-  content: '';
+  content: "";
   position: absolute;
   display: inline-block;
   right: 0; /* var(--padding-end) - 10px*/
@@ -187,7 +181,7 @@ a:focus {
 }
 
 .footer-focus::before {
-  content: '';
+  content: "";
   position: absolute;
   display: inline-block;
   left: 0; /* var(--padding-end) - 10px */
@@ -217,11 +211,11 @@ a:focus {
 }
 
 .img-title {
-    background-color: var(--accent-color);
+  background-color: var(--accent-color);
   color: var(--black-text);
   height: min-content;
   font-weight: 700;
-  }
+}
 
 .main-text {
   color: var(--main-text);
@@ -240,7 +234,7 @@ a:focus {
   margin-bottom: 20px;
 }
 
-.marg20{
+.marg20 {
   margin-bottom: 20px;
 }
 
@@ -248,14 +242,16 @@ a:focus {
   font-weight: 400;
 }
 
-
 @media (width >= 768px) {
 
   .header {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .header__theme-menu, .card__title-grid-header, .card1 .card__title, .card1 .card__text {
+  .header__theme-menu,
+  .card__title-grid-header,
+  .card1 .card__title,
+  .card1 .card__text {
     grid-column: 2/3;
   }
 
@@ -264,7 +260,6 @@ a:focus {
     gap: 9.5vw;
     left: -20px;
     bottom: -2px;
-    
   }
 
   .content {
@@ -276,26 +271,27 @@ a:focus {
 
   .card-grid {
     display: grid;
-    grid-template-columns:1fr 2fr;
+    grid-template-columns: 1fr 2fr;
     column-gap: 20px;
   }
 
   .card3 {
     display: grid;
-    grid-template-columns:17fr 31fr;
+    grid-template-columns: 17fr 31fr;
   }
 
   :root {
     --padding-end: 20px;
     --margin-imgs-top: 60px;
-
   }
 
   .card__quest {
     grid-column: 1/2;
   }
 
-  .card2 .card__title, .card2 .card__text, .focus-text-grid-header {
+  .card2 .card__title,
+  .card2 .card__text,
+  .focus-text-grid-header {
     grid-column: 1/3;
   }
 
@@ -314,7 +310,7 @@ a:focus {
   }
 
   .picture-1 {
-    grid-column: 1/3 ;
+    grid-column: 1/3;
     grid-row: 2/3;
   }
 
@@ -346,11 +342,11 @@ a:focus {
 @media (width >= 1024px) {
 
   .main-text {
-  color: var(--main-text);
-  font-size: 155px;
-  text-shadow: 4px 4px 0 var(--accent-color);
-  align-self: baseline;
-}
+    color: var(--main-text);
+    font-size: 155px;
+    text-shadow: 4px 4px 0 var(--accent-color);
+    align-self: baseline;
+  }
 
   .header__theme-menu {
     grid-column: 1/3;
@@ -360,17 +356,17 @@ a:focus {
     align-items: start;
   }
 
-  .header__theme-menu-list{
-  justify-self: center;
-  align-self: start;
-  margin-right: calc((100% - 348px) / 2);
-  flex-direction: row;
-  gap: 10px;
-  padding-top: var(--padding-end);
+  .header__theme-menu-list {
+    justify-self: center;
+    align-self: start;
+    margin-right: calc((100% - 348px) / 2);
+    flex-direction: row;
+    gap: 10px;
+    padding-top: var(--padding-end);
   }
 
-  .card1{
-    grid-template-columns:31fr 64fr;
+  .card1 {
+    grid-template-columns: 31fr 64fr;
     column-gap: 20px;
   }
 
@@ -381,7 +377,7 @@ a:focus {
     column-gap: 20px;
   }
 
-  .card2 .card__quest{
+  .card2 .card__quest {
     grid-row: 1/2;
   }
 
