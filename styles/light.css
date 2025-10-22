@@ -14,14 +14,8 @@
   --background-header: url(../images/cover-image-light.png);
 }
 
-.theme-light .header__record-decoration {
-  display: none;
-}
-
-.theme-light .header::before,
-.theme-light .footer::before,
-.theme-light .header::after,
-.theme-light .footer::after,
+.theme-light .footer-focus::before,
+.theme-light .footer-focus::after,
 .theme-light .header__theme-menu-button {
   --accent: var(--text);
 }
@@ -42,14 +36,8 @@
   --background-header: url(../images/cover-image-light.png);
   }
 
-  .theme-auto .header__record-decoration {
-    visibility: hidden;
-  }
-
-  .theme-auto .header::before,
-  .theme-auto .footer::before,
-  .theme-auto .header::after,
-  .theme-auto .footer::after,
+  .theme-auto .footer-focus::before,
+  .theme-auto .footer-focus::after,
   .theme-auto .header__theme-menu-button {
     --accent-color: var(--text);
   }

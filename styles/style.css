@@ -463,14 +463,8 @@ a:focus {
   --background-header: url(../images/cover-image-light.png);
   }
 
-  .theme-auto .header__record-decoration {
-    visibility: hidden;
-  }
-
-  .theme-auto .header::before,
-  .theme-auto .footer::before,
-  .theme-auto .header::after,
-  .theme-auto .footer::after,
+  .theme-auto .footer-focus::before,
+  .theme-auto .footer-focus::after,
   .theme-auto .header__theme-menu-button {
     --accent-color: var(--text);
   }
