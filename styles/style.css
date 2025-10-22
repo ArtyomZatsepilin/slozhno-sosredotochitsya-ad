@@ -205,8 +205,9 @@ a:focus {
   margin: var(--margin-contents-top) 0 0 0;
 }
 
-.card2, .card3 {
-  margin: 32px 0 0 0;
+.card2,
+.card3 {
+  margin: 32px 0 0;
 }
 
 .card__title {
@@ -252,9 +253,10 @@ a:focus {
 
 @media (width >= 768px) {
 
-  .card2, .card3 {
-  margin: 37px 0 0 0;
-}
+  .card2,
+  .card3 {
+    margin: 37px 0 0;
+  }
 
   .header {
     grid-template-columns: repeat(2, 1fr);
@@ -361,10 +363,10 @@ a:focus {
     align-self: baseline;
   }
 
-
-  .card2, .card3 {
-  margin: 40px 0 0 0;
-}
+  .card2,
+  .card3 {
+    margin: 40px 0 0;
+  }
 
   .header__theme-menu {
     grid-column: 1/3;
@@ -446,4 +448,3 @@ a:focus {
     font-size: 155px;
   }
 }
-
