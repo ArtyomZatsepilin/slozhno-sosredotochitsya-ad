@@ -38,7 +38,7 @@
   .header__record-decoration {
     display: none;
   }
-/* 
+
   .header::before,
   .footer::before,
   .header::after,
@@ -50,5 +50,5 @@
   .main__section-title,
   .title-accent {
     color: var(--text);
-  } */
+  }
 }
